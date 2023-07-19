@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+
+/*PALETA DE CORES :
+#A64AFF
+#6B43E8
+#575CFF
+#4374E8
+#4AAFFF
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color: rgb(248, 241, 241);
+    height: 100vh;
+}
+
+
+
+div#container{
+    position: relative;
+}
+div#circlepurple{
+    background-image:linear-gradient(to bottom,#4AAFFF,#4374E8);
+    width: 250px;
+    height: 500px;
+    border-bottom-right-radius: 500px;
+}
+div#phone{
+    position: absolute;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    margin-top: 50px;
+    border-radius: 30px;
+    
+    top: 50%;
+    left:50%;
+    
+    transform: translate(-50%,-50%);
+}
+div#tela{
+    position: relative;
+    background-color: rgb(241, 236, 236);
+    margin: 8px;
+    height: 480px;
+    border-radius: 20px;
+}
+div#perfil{
+    position: relative;
+    background-image:linear-gradient(to right,#4374E8, #4AAFFF) ;
+
+    height: 70px;
+    margin: 2px;
+
+    top: 2px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+div#partcam{
+    background-color:white;
+    position: absolute;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+}
+img#avatar{
+    position: absolute;
+    width: 30px;
+    border-radius: 100px;
+    border: 1px solid whitesmoke;
+
+    margin: 5px;
+    top: 24%;
+    left:5%;
+}
+div#dados{
+    position: absolute;
+    color: #ffffff;
+    font-size: 7px;
+    padding: 10px;
+    top: 25%;
+    left: 20%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div#recebidas1{
+    position: absolute;
+    background-color:#d2d3f8;
+    color: #2c58be;
+    width: 120px;
+    
+
+    top: 75px;
+    margin: 5px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    
+    padding: 8px;
+    font-size: 11px;
+    font-family: 'Rubik', sans-serif;
+    
+}
+div#recebidas2{
+    position: absolute;
+    background-color:#d2d3f8;
+    color: #2c58be;
+    width: 130px;
+    
+
+    top: 125px;
+    margin: 5px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    
+    padding: 8px;
+    font-size: 11px;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+img#dog1{
+    position: absolute;
+    width: 50px;
+    border-radius:5px ;
+
+    top: 40%;
+    left: 70%;
+
+    transform:rotate(-10deg);
+    z-index: 1;
+}
+
+img#dog2{
+    position: absolute;
+    width: 50px;
+    border-radius:5px ;
+
+    top: 40%;
+    left: 70%;
+
+    opacity: 0.5;
+    
+}
+
+
+div#enviadas1{
+    position: absolute;
+    background-color:#ffffff;
+    color: #2c58be;
+    
+    
+
+    top: 52%;
+    left: 35%;
+    margin: 5px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+
+    
+    padding: 8px;
+    font-size: 11px;
+    font-family: 'Rubik', sans-serif;
+}
+div#typeamessage{
+    
+    
+    position: relative;
+    top: 75%;
+    left: 4.5%;
+    margin-left: 50px;
+
+    background-color: #ffffff;
+
+    margin: 2px;
+    height: 40px;
+    width: 210px;
+    border-radius: 20px;
+
+}
+div#typeamessage > p{
+    position: absolute;
+    padding: 10px;
+    top: 1px;
+    text-align: center;
+    font-size:15px ;
+    color: rgb(199, 194, 194);
+    font-family: Rubik;
+}
+div#btnenvit{
+    position: absolute;
+    background-color: #2c58be;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    top: 20%;
+    left: 85%;
+}
+div#recebidas3{
+    position: absolute;
+    background-color: #d2d3f8;
+    color: #2c58be;
+    top: 285px;
+    margin: 5px;
+    width: 130px;
+
+    padding: 8px;
+    font-size: 11px;
+    font-family: Rubik;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+div#recebidas4{
+    position: absolute;
+    background-image: linear-gradient(90deg ,#4AAFFF ,#575CFF );
+
+    top:360px;
+    margin: 5px;
+    padding: 10px;
+    width: 150px;
+
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    font-size: 11px;
+    font-family: Rubik;
+    text-align: center;
+}
+h2#valor{
+    text-align: center;
+}
+div#btn{
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 35%;
+
+    border-radius: 100%;
+    border: 1px solid white;
+}
+section{
+    
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section#text{
+    position: absolute;
+    font-size: 20px;
+    top: 130%;
+    padding: 20px;
+    font-family: Rubik;
+    
+
+}
