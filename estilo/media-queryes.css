@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*outras telas*/
+
+@media screen and (min-width:760px) and (max-width:992px){
+    div#circlepurple{
+        width: 450px;
+        height: 650px;
+    } 
+    section#simple{
+        position: absolute;
+        top: 100%;
+
+    }
+    section#text{
+        position: absolute;
+        top: 105%;
+        
+
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    div#circlepurple{
+        width: 450px;
+        height: 550px;
+        border-bottom-left-radius: 500px;
+    }
+    div#phone{
+        top: 300px;
+        left: 430px;
+    }
+    section#simple{
+        top: 150px;
+        left: 75%;
+    }
+    section#text{
+        top: 40%;
+        left: 570px;
+        font-size:20px;
+        text-align: center;
+
+    }
+}
+@media screen and (min-width:1200px){
+    div#circlepurple{
+        width: 600px;
+        height: 750px;
+        border-bottom-left-radius: 500px;
+    }
+    div#phone{
+        left: 45%;
+        top: 35%;
+    }
+    section#simple{
+        top: 155px;
+        left: 77%;
+    }
+    section#text{
+        top: 35%;
+        left: 55%;
+    }
+}
+

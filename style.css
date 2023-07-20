@@ -89,7 +89,7 @@ div#dados{
     color: #ffffff;
     font-size: 7px;
     padding: 10px;
-    top: 25%;
+    top: 29%;
     left: 20%;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -99,6 +99,7 @@ div#recebidas1{
     background-color:#d2d3f8;
     color: #2c58be;
     width: 120px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
     
 
     top: 75px;
@@ -119,6 +120,7 @@ div#recebidas2{
     background-color:#d2d3f8;
     color: #2c58be;
     width: 130px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
     
 
     top: 125px;
@@ -139,6 +141,7 @@ img#dog1{
     position: absolute;
     width: 50px;
     border-radius:5px ;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
 
     top: 40%;
     left: 70%;
@@ -164,6 +167,7 @@ div#enviadas1{
     position: absolute;
     background-color:#ffffff;
     color: #2c58be;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
     
     
 
@@ -181,7 +185,7 @@ div#enviadas1{
     font-family: 'Rubik', sans-serif;
 }
 div#typeamessage{
-    
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
     
     position: relative;
     top: 75%;
@@ -204,6 +208,7 @@ div#typeamessage > p{
     font-size:15px ;
     color: rgb(199, 194, 194);
     font-family: Rubik;
+   
 }
 div#btnenvit{
     position: absolute;
@@ -214,14 +219,22 @@ div#btnenvit{
     top: 20%;
     left: 85%;
 }
+div#seta{
+    position: absolute;
+    color: #ffffff;
+    top:2px;
+    left:3px ;
+
+}
 div#recebidas3{
     position: absolute;
     background-color: #d2d3f8;
     color: #2c58be;
     top: 285px;
     margin: 5px;
-    width: 130px;
-
+    width: 150px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+    
     padding: 8px;
     font-size: 11px;
     font-family: Rubik;
@@ -233,23 +246,22 @@ div#recebidas3{
 div#recebidas4{
     position: absolute;
     background-image: linear-gradient(90deg ,#4AAFFF ,#575CFF );
-
-    top:360px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+    top:375px;
     margin: 5px;
     padding: 10px;
     width: 150px;
+    height: 25px;
 
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
 
-    font-size: 11px;
+    font-size: 9px;
     font-family: Rubik;
     text-align: center;
 }
-h2#valor{
-    text-align: center;
-}
+
 div#btn{
     background-color: rgba(255, 0, 0, 0);
     position: absolute;
@@ -260,8 +272,8 @@ div#btn{
     border-radius: 100%;
     border: 1px solid white;
 }
-section{
-    
+section#simple{
+    color: #2c58be;
     position: absolute;
     top: 95%;
     left: 50%;
@@ -274,9 +286,9 @@ section{
 }
 section#text{
     position: absolute;
-    font-size: 20px;
-    top: 130%;
-    padding: 20px;
+    font-size: 25px;
+    top: 105%;
+    padding: 25px;
     font-family: Rubik;
     
 
